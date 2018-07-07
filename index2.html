@@ -113,6 +113,9 @@
             display: flex;
             align-items: center;
         }
+        .tui-body .tui-tiles .tui-row .tui-tile .tui-tile-header.tui-tile-header-selected {
+            background-color: #ddedd1;
+        }
         .tui-body .tui-tiles .tui-row .tui-tile .tui-tile-header .tui-tile-header-label {
             width: 157px;
             height: 28px;
@@ -129,12 +132,19 @@
             position: relative;
             left: 10px;
         }
+        .tui-body .tui-tiles .tui-row .tui-tile .tui-tile-header .tui-tile-header-label.tui-tile-header-label-selected {
+            color: #317503;
+        }
         .tui-body .tui-tiles .tui-row .tui-tile .tui-tile-header .tui-tile-header-label span {
             text-transform: capitalize;
         }
         .tui-body .tui-tiles .tui-row .tui-tile .tui-tile-header .tui-symbol {
             position: relative;
             left: 17.5px;
+            color: #53a318;
+        }
+        .tui-body .tui-tiles .tui-row .tui-tile .tui-tile-header .tui-symbol.tui-symbol-selected {
+            color: #317503;
         }
         .tui-footer {
             width: 100%;
@@ -184,7 +194,12 @@
                             <div class="tui-symbol"><div class="icon-plus-no-circle"></div></div>
                         </div>
                     </div>
-                    <div class="tui-tile"></div>
+                    <div class="tui-tile">
+                        <div class="tui-tile-header tui-tile-header-selected">
+                            <div class="tui-tile-header-label tui-tile-header-label-selected"><span>fun & leisure</span></div>
+                            <div class="tui-symbol tui-symbol-selected"><span class="icon-filled-check"></span></div>
+                        </div>
+                    </div>
                     <div class="tui-tile"></div>
                     <div class="tui-tile"></div>
                     <div class="tui-tile"></div>
