@@ -96,10 +96,45 @@
             flex-wrap: wrap
         }
         .tui-body .tui-tiles .tui-row .tui-tile {
-            border: 1px solid salmon;
+            borderZZZ: 1px solid salmon;
             width: 199px;
             height: 150px;
             margin-bottom: 30.7px;
+            border-radius: 4px;
+            border: solid 0.5px #a5a8ab;
+            background-image: url('https://img.grouponcdn.com/test/3qbHjr8h4WrViK2EWAqJozjHZhQJ/3q-1200x900');
+            background-position: 0 20px;
+            background-size: contain;
+        }
+        .tui-body .tui-tiles .tui-row .tui-tile .tui-tile-header {
+            position: relative;
+            height: 41px;
+            background-color: white;
+            display: flex;
+            align-items: center;
+        }
+        .tui-body .tui-tiles .tui-row .tui-tile .tui-tile-header .tui-tile-header-label {
+            width: 157px;
+            height: 28px;
+            font-family: OpenSans;
+            font-size: 15px;
+            font-weight: 600;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.07;
+            letter-spacing: normal;
+            color: #333333;
+            display: flex;
+            align-items: center;
+            position: relative;
+            left: 10px;
+        }
+        .tui-body .tui-tiles .tui-row .tui-tile .tui-tile-header .tui-tile-header-label span {
+            text-transform: capitalize;
+        }
+        .tui-body .tui-tiles .tui-row .tui-tile .tui-tile-header .tui-symbol {
+            position: relative;
+            left: 17.5px;
         }
         .tui-footer {
             width: 100%;
@@ -143,7 +178,12 @@
         <div class="tui-body">
             <div class="tui-tiles">
                 <div class="tui-row">
-                    <div class="tui-tile"></div>
+                    <div class="tui-tile">
+                        <div class="tui-tile-header">
+                            <div class="tui-tile-header-label"><span>fun & leisure</span></div>
+                            <div class="tui-symbol"><div class="icon-plus-no-circle"></div></div>
+                        </div>
+                    </div>
                     <div class="tui-tile"></div>
                     <div class="tui-tile"></div>
                     <div class="tui-tile"></div>
