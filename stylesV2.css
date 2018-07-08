@@ -1,0 +1,279 @@
+﻿.tui-modal-container {
+    width: 1100px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tui-modal {
+    width: 1009px;
+    height: 756px;
+    border: 1px solid grey;
+    position: relative;
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.25);
+}
+
+    .tui-modal.tui-modal-continue-shopping {
+        width: 850px;
+        height: 433px;
+        position: relative;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.25);
+        display: flex;
+        justify-content: center;
+    }
+
+.tui-dismiss-x {
+    width: 15.3px;
+    height: 15.3px;
+    position: absolute;
+    top: 24.9px;
+    left: 969.1px;
+}
+
+    .tui-dismiss-x.tui-dismiss-x-continue-shopping {
+        width: 16px;
+        height: 17px;
+        position: absolute;
+        top: 17px;
+        left: 817px;
+    }
+
+.tui-done-icon {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 62px;
+    left: 393px;
+    font-size: 64px;
+    color: #53a318;
+}
+
+.tui-header {
+    width: 100%;
+    height: 76px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+.tui-done-header-1 {
+    border: 1px solid greenyellow;
+    position: absolute;
+    top: 167px;
+}
+
+    .tui-done-header-1 span {
+        height: 56px;
+        font-family: OpenSans;
+        font-size: 21px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000000;
+    }
+
+.tui-done-header-2 {
+    border: 1px solid yellow;
+    position: absolute;
+    top: 208px;
+}
+
+    .tui-done-header-2 span {
+        width: 550px;
+        height: 42px;
+        font-family: OpenSans;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        text-align: center;
+        color: #75787b;
+    }
+
+.tui-done-button {
+    width: 221px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #53a318;
+    position: absolute;
+    top: 327px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .tui-done-button span {
+        height: 32px;
+        font-family: OpenSans;
+        font-size: 14px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2.29;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+    }
+
+.tui-header .tui-header-text {
+    width: 807.2px;
+    height: 33px;
+    font-family: OpenSans;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    position: relative;
+    top: 33px;
+}
+
+.tui-subheader {
+    width: 100%;
+    height: 40px;
+    border: 1px solid violet;
+    display: flex;
+    justify-content: center;
+}
+
+    .tui-subheader .tui-subheader-text {
+        width: 306px;
+        height: 20px;
+        font-family: OpenSans;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #333333;
+        text-transform: uppercase;
+        position: relative;
+        top: 10px;
+    }
+
+.tui-body {
+    width: 100%;
+    height: 532px;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+}
+
+    .tui-body .tui-tiles {
+        border: 1px solid blanchedalmond;
+        width: 889px;
+        height: 100%;
+    }
+
+        .tui-body .tui-tiles .tui-row {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap
+        }
+
+            .tui-body .tui-tiles .tui-row .tui-tile {
+                borderZZZ: 1px solid salmon;
+                width: 199px;
+                height: 150px;
+                margin-bottom: 30.7px;
+                border-radius: 4px;
+                border: solid 0.5px #a5a8ab;
+                background-image: url('https://img.grouponcdn.com/test/3qbHjr8h4WrViK2EWAqJozjHZhQJ/3q-1200x900');
+                background-position: 0 20px;
+                background-size: contain;
+            }
+
+                .tui-body .tui-tiles .tui-row .tui-tile .tui-tile-header {
+                    position: relative;
+                    height: 41px;
+                    background-color: white;
+                    display: flex;
+                    align-items: center;
+                }
+
+                    .tui-body .tui-tiles .tui-row .tui-tile .tui-tile-header.tui-tile-header-selected {
+                        background-color: #ddedd1;
+                    }
+
+                    .tui-body .tui-tiles .tui-row .tui-tile .tui-tile-header .tui-tile-header-label {
+                        width: 157px;
+                        height: 28px;
+                        font-family: OpenSans;
+                        font-size: 15px;
+                        font-weight: 600;
+                        font-style: normal;
+                        font-stretch: normal;
+                        line-height: 1.07;
+                        letter-spacing: normal;
+                        color: #333333;
+                        display: flex;
+                        align-items: center;
+                        position: relative;
+                        left: 10px;
+                    }
+
+                        .tui-body .tui-tiles .tui-row .tui-tile .tui-tile-header .tui-tile-header-label.tui-tile-header-label-selected {
+                            color: #317503;
+                        }
+
+                        .tui-body .tui-tiles .tui-row .tui-tile .tui-tile-header .tui-tile-header-label span {
+                            text-transform: capitalize;
+                        }
+
+                    .tui-body .tui-tiles .tui-row .tui-tile .tui-tile-header .tui-symbol {
+                        position: relative;
+                        left: 17.5px;
+                        color: #53a318;
+                    }
+
+                        .tui-body .tui-tiles .tui-row .tui-tile .tui-tile-header .tui-symbol.tui-symbol-selected {
+                            color: #317503;
+                        }
+
+.tui-footer {
+    width: 100%;
+    height: 108.6px;
+    border: 1px solid yellowgreen
+}
+
+    .tui-footer .tui-button {
+        width: 221px;
+        height: 38px;
+        border-radius: 2px;
+        background-color: #53a318;
+        border: solid 1px #53a318;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 33px;
+        left: 395px;
+    }
+
+        .tui-footer .tui-button .tui-button-text {
+            width: 33px;
+            height: 19px;
+            font-family: OpenSans;
+            font-size: 14px;
+            font-weight: 600;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: #ffffff;
+        }
